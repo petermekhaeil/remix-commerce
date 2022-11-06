@@ -120,6 +120,7 @@ export default function ProductSlug() {
                   className="h-full w-full object-contain"
                   height={480}
                   width={480}
+                  placeholder="blur"
                 />
               ) : null}
             </div>

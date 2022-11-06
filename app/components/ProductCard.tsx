@@ -22,6 +22,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           width={480}
           height={480}
           alt={product.name}
+          placeholder="blur"
         />
       ) : null}
 

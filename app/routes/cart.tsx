@@ -75,6 +75,7 @@ const Cart = () => {
                             }
                           }
                         ]}
+                        placeholder="blur"
                       />
                     ) : null}
                   </div>
