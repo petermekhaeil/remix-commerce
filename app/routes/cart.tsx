@@ -61,7 +61,7 @@ const Cart = () => {
 
             <ul className="divide-y divide-gray-200 border-t border-b border-gray-200">
               {cart.line_items.map((item) => (
-                <li key={item.id} className="flex py-6">
+                <li key={item.id} className="flex py-6" data-testid="cart-item">
                   <div className="flex-shrink-0">
                     {item.image ? (
                       <Image
